@@ -6,13 +6,14 @@ body{
 .title{
     top: 0;
     width: 100%;
+    max-width: 100%;
     z-index: 1;
     display: block;
+  
     position: absolute;
     background-color: #444444;
     color: white;
    margin: 0;
-   padding: 5px;
 }
 
 .entry-modal{
@@ -71,4 +72,11 @@ button{
     right: 15;
     background-color: #444444;
     position: absolute;
+}
+.meet-controls-bar{
+    bottom: 0;
+    background-color: black;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
